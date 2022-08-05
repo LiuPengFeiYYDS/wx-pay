@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view>
+    <text class="userinfo">微信小程序的封装</text>
+</view>
