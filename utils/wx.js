@@ -9,3 +9,4 @@ function wxToPromise(method = 'request', options = {}){
 }
 
 export default wxToPromise
+

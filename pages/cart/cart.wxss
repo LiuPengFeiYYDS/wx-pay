@@ -1,0 +1,116 @@
+/* pages/cart/cart.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.list{
+  padding-bottom : 181rpx;
+}
+.list-item{
+  border-bottom: 1rpx solid #ccc;
+  padding: 40rpx;
+  position: relative;
+}
+.list-item text{
+  display: block;
+}
+.list-item text:nth-child(2){
+  color: #ccc;
+  font-size: 32rpx;
+  margin: 20rpx 0;
+}
+.list-item text:nth-child(3){
+  color: red;
+  font-size: 35rpx;
+}
+.list-item-button-group{
+  display: flex;
+  position: absolute;
+  right: 40rpx;
+  bottom: 20rpx;
+}
+.list-item-button-group .count{
+  width: 150rpx;
+  height: 40rpx;
+  border: 1px solid #ffa72b;
+  border-radius: 40rpx;
+  text-align: center;
+  margin: 0 20rpx;
+}
+.list-item-button-group text:nth-child(1){
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  border: 1px solid #ffa72b;
+  text-align: center;
+  line-height: 55rpx;
+  color: #ffa72b;
+  font-size: 40rpx;
+}
+.list-item-button-group text:nth-child(3){
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  background-color: #ffa72b;
+  text-align: center;
+  line-height: 55rpx;
+  color: #fff;
+  font-size: 40rpx;
+}
+.settle-ment{
+  background-color: yellow;
+  position: fixed;
+  bottom : 0; 
+  left : 0; 
+  right : 0;
+}
+.total-price{
+  height : 80rpx;
+  line-height: 80rpx;
+  background-color: #fff;
+  border: 1rpx solid #eee;
+  padding : 0 20rpx;
+  color : #ccc;
+}
+.total-price .price{
+  margin-left: 10rpx;
+  color : #f60;
+}
+.button-group{
+  height : 100rpx;
+  display: flex;
+}
+.button-group  view{
+  flex : 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color : #fff;
+}
+.add{
+  background-color:  #FEBE1B;
+}
+.settle{
+  background-color: #f60;
+}
+.empty-cart{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cart-image{
+  width:400rpx;
+  height: 350rpx;
+  margin:50rpx 0;
+}
+.tips{
+  color : #ccc;
+  font-size: 40rpx;
+  margin-top: 200rpx;
+}
+.sancode{
+  border-radius: 15rpx;
+  background-color: #FEBE1B;
+  padding : 20rpx 100rpx;
+  color: #fff;
+}

@@ -1,4 +1,8 @@
-<!--index.wxml-->
-<view>
-    <text class="userinfo">微信小程序的封装</text>
+<view class="container">
+  <!-- 轮播图 -->
+  <i-swiper data="{{bannerData}}"></i-swiper>
+
+  <!-- 扫码按钮 -->
+  <i-code-button count="{{count}}" status="{{status}}" bind:getResult="getShopCode"></i-code-button>
+
 </view>

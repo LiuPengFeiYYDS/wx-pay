@@ -1,8 +1,5 @@
-/**index.wxss**/
-.userinfo {
+/* pages/shop/shop.wxss */
+.container{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  color: #aaa;
-  justify-content:center;
 }
